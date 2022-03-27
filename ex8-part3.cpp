@@ -1,7 +1,7 @@
 #include <iostream>
 #include <ncurses.h>
 using namespace std;
-void echange(int a, int b)
+void echange(int &a, int &b)
 {
     int tampon;
     tampon = b;
